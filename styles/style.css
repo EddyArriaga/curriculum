@@ -14,7 +14,7 @@ h1 {
     color: #fffffe;
 }
 
-p, a {
+p, a, label {
     font-size: 1.2rem;
     color: #94a1b2;
 }
@@ -57,7 +57,6 @@ a {
 }
 
 a:hover {
-    background: #7f5af0;
     color: #fffffe;
 }
 
@@ -79,6 +78,25 @@ section {
 
 section p, section h1 {
     margin: 9px 0;
+}
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    background: #16161a;
+    padding: 40px;
+    border-top: 5px solid;
+    border-image: linear-gradient(to left, #16161a, #7f5af0, #16161a) 1;
+}
+
+#redes-sociales {
+    display: flex;
+    gap: 10px;
+}
+
+i {
+    color: #fffffe;
+    font-size: 25px;
 }
 
 /* ---------------- @medias ------------- */

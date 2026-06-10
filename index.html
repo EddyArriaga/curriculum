@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>Currículum</title>
 </head>
 <body>
     <header>
-        <img src="img/foto.jpg" alt="foto" id="foto">
+        <img src="img/foto.jp" alt="foto" id="foto">
         <h1>Arriaga Arreaga Eddy</h1>
         <p id="email">eddyearriaga@gmail.com</p>
         <p id="numero-celular">+593 98 645 6863</p>
@@ -18,7 +19,6 @@
             <a href="#experiencia">Experiencia</a>
             <a href="#educacion">Educación</a>
             <a href="#habilidades">Habilidades</a>
-            <a href="#proyectos">Proyectos</a>
             <a href="#contactame">Contáctame</a>
         </nav>
     </header>
@@ -62,16 +62,38 @@
             <p></p>
         </section>
 
-        <section id="proyectos">
-            <h1>Proyecto</h1>
-            <p>pequeño texto sobre mi</p>
-        </section>
-
         <section id="contacto">
             <h1>Contáctame</h1>
-            <p>pequeño texto sobre mi</p>
+
+            <form action="">
+                <label for="">Correo electrónico</label>
+                <input required type="email" name="" id="">
+                
+                <label for="">Asunto</label>
+                <input required type="text" name="" id="">
+                
+                <label for="">Mensaje</label>
+                <textarea required name="" id=""></textarea>
+
+                <label for="">Adjunto archivo</label>
+                <input type="file" name="" id="">
+
+
+                <input type="submit" value="Enviar">
+            </form>
         </section>
 
     </main>
+
+    <footer>
+        <p>Elaborado por Eddy Arriaga A.</p>
+        
+        <div id="redes-sociales">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+    </footer>
 </body>
 </html>
