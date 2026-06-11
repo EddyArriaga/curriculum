@@ -29,11 +29,21 @@
             <p>
                 Soy estudiante de Computación de la Escuela Superior Politécnica del Litoral (ESPOL) con interés en el desarrollo web y la programación. Me gusta crear aplicaciones y páginas web, así como aprender nuevas tecnologías que me permitan mejorar mis habilidades como desarrollador. Tengo conocimientos en Python, Java, HTML, CSS, JavaScript y fundamentos de SQL. Disfruto enfrentar retos de programación, desarrollar proyectos prácticos y ampliar constantemente mis conocimientos en el área tecnológica. Me considero una persona responsable, comprometida con el aprendizaje y con interés en seguir creciendo profesionalmente en el campo del desarrollo de software.
             </p>
+
+            <video src="videos/presentacion.mp4" controls></video>
         </section>
         
         <section id="experiencia">
             <h1>Experiencia</h1>
             <ul>
+                <li>
+                    <h1>Pasante en área contable</h1>
+                    <p>Negocios Industriales Real S.A. - Guayas/Guayaquil | 1 mes</p>
+                    <p>
+                        Me encargué de archivar documentos en sus carpetas correspondientes, organizar órdenes de compra y elaborar etiquetas para las carpetas que no las tenían.
+                    </p>
+                </li>
+
                 <li>
                     <h1>Administrativo en Computación</h1>
                     <p>Escuela Particular Pascuales - Guayaquil | 1 año</p>
@@ -48,13 +58,13 @@
             <h1>Educación</h1>
             <ul>
                 <li>
-                    <h1>Computación</h1>
+                    <h2>Computación</h1>
                     <p>Escuela Superior Politécnica del Litoral (ESPOL)</p>
                     <p>2024 - Actualmente estudiando</p>
                 </li>
 
                 <li>
-                    <h1>Bachillerato Técnico</h1>
+                    <h2>Bachillerato Técnico</h2>
                     <p>Unidad Educativa Particular Voluntas Dei</p>
                     <p>2021 - 2023</p>
                 </li>
@@ -62,45 +72,44 @@
         </section>
 
         <section id="habilidades">
-            <h1>Habilidades</h1>
+            <h2>Habilidades</h2>
             <ul>
                 <li><p>Lenguaje de Programación: Java, Python</p></li>
                 <li><p>Aplicaciones Ofimática: Excel, Word, PowerPoint</p></li>
                 <li><p>Lenguaje de Desarrollo Web: HTML y CSS</p></li>
+                <li><p>Nivel de inglés: Intermedio</p></li>
             </ul>
         </section>
 
-        <section id="contacto">
+        <section id="contactame">
             <h1>Contáctame</h1>
 
-            <form action="">
-                <label for="">Correo electrónico</label>
-                <input required type="email" name="" id="">
+            <form id="formulario-contacto" action="" method="post">
+                <label for="email">Correo electrónico</label>
+                <input required type="email" name="email" id="email">
                 
-                <label for="">Asunto</label>
-                <input required type="text" name="" id="">
+                <label for="asunto">Asunto</label>
+                <input required type="text" name="asunto" id="asunto">
                 
-                <label for="">Mensaje</label>
-                <textarea required name="" id=""></textarea>
+                <label for="mensaje">Mensaje</label>
+                <textarea required name="mensaje" id="mensaje"></textarea>
 
-                <label for="">Adjunto archivo</label>
-                <input type="file" name="" id="">
-
-
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" id="boton-enviar">
             </form>
+
+            <h2>Mi ciudad</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255168.1993863538!2d-80.14491785387024!3d-2.152492352593404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1ses-419!2sec!4v1781138436895!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
     </main>
 
     <footer>
-        <p>Elaborado por Eddy Arriaga A.</p>
+        <p>Elaborado por: Eddy Arriaga A.</p>
         
         <div id="redes-sociales">
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-x-twitter"></i>
+            <a href="https://www.linkedin.com/in/eddy-arriaga-a241b1397/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/EddyArriaga"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/eddyarriaga1/"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </footer>
 </body>

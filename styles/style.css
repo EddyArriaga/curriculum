@@ -9,9 +9,19 @@ html {
     scroll-behavior: smooth;
 }
 
+ul {
+    list-style: none;
+}
+
 h1 {
     font-size: 1.3rem;
     color: #fffffe;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #fffffe;
+    margin-top: 5px;
 }
 
 p, a, label {
@@ -80,13 +90,60 @@ section p, section h1 {
     margin: 9px 0;
 }
 
+#sobre-mi video {
+    width: 60%;
+    margin-top:10px;
+}
+
+#formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+    gap: 5px;
+}
+
+input, textarea {
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 40px;
+    background: #16161a;
+    border-radius: 6px;
+    color: #fffffe;
+    font-size: 1.1rem;
+    border: 1px solid #7f5af0;
+}
+
+textarea {
+    height:200px;
+    resize: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#boton-enviar {
+    padding: 8px 0;
+    transition: 0.15s;
+}
+
+#boton-enviar:hover {
+    background: #7f5af0;
+    color: #fffffe;
+}
+
 footer {
     display:flex;
     justify-content: space-between;
+    align-items: center;
     background: #16161a;
     padding: 40px;
     border-top: 5px solid;
     border-image: linear-gradient(to left, #16161a, #7f5af0, #16161a) 1;
+}
+
+#contactame iframe {
+    margin-top: 10px;
+    width:100%;
 }
 
 #redes-sociales {
@@ -97,6 +154,11 @@ footer {
 i {
     color: #fffffe;
     font-size: 25px;
+    transition: 0.15s;
+}
+
+i:hover {
+    color: #7f5af0;
 }
 
 /* ---------------- @medias ------------- */
